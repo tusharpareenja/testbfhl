@@ -20,7 +20,7 @@ export default function Home() {
         throw new Error('Invalid JSON format. Expected {"data": [...]}')
       }
 
-      const response = await fetch('http://localhost:5000/bfhl', {
+      const response = await fetch('https://testbfhl-rtki.vercel.app/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
