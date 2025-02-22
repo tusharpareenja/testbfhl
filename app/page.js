@@ -50,7 +50,7 @@ export default function Home() {
   const filterOptions = [
     { id: 'alphabets', label: 'Alphabets' },
     { id: 'numbers', label: 'Numbers' },
-    { id: 'highestAlphabet', label: 'Highest alphabet' },
+    { id: 'highest_alphabet', label: 'Highest alphabet' },
   ]
 
   return (
